@@ -1,41 +1,27 @@
-# Projet chapitre 2
+# Projet2
 
-Dans ce projet nous allons mettre en pratique tout ce que nous avons vu dans le chapitre 2. Sauf que cette fois, c'est à vous de jouer ! Au programme, la création de composants, l'utilisation des différentes liaisons de données ainsi que des directives de base.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
-Notez bien que le l'UI ( l'interface utilisateur rendue grâce au CSS ) ne rentre pas du tout en compte dans la réalisation des exercices. L'objectif, c'est de maitriser Angular. Vous aurez l'occasion de montrer vos talents graphiques sur les projets avancés.
+## Development server
 
-## Lancer le projet
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Pour lancer l'application il faut d'abord installer les dépendances avec npm : 
+## Code scaffolding
 
-`npm i`
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Puis lancer le serveur de développement avec : 
+## Build
 
-`ng serve`
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Objectifs
+## Running unit tests
 
-* [ ] Créez, dans le répertoire app, un composants avec le nom : "exerice1".
-* [ ] Ajouter ce composant dans le composant "app"
-* [ ] Dans ce composant, mettez en place trois exemples de liaison. un sur un attribut avec [] un autre sur un evement avec () et le dernier avec une interpolation de variable {{ }} ; ( tu peux utiliser le fichier typescript du composant si tu le souhaites ).
-* [ ] Un clic sur le composant "exercice2" doit afficher "click" dans la console.
-* [ ] Créez, dans le répertoire app, un composants avec le nom : "exerice3".
-* [ ] Ajouter ce composant dans le composant "app"
-* [ ] Dans le template de ce composant, mettre deux paragraphe avec comme contenu 'p1' et 'p2'      
-* [ ] Ajouter dans le component un attribut 'status', de type boolean, initialisé à TRUE.
-* [ ] Ajouter dans le component un bouton.
-* [ ] Cliquez sur le bouton doit inverser la valeur de l'attribut 'status'.
-* [ ] Si status est à TRUE, le paragraphe contenant p1 doit être affiché, sinon c'est le paragraphe p2 quoi l'etre.
-* [ ] Créez, dans le répertoire app, un composants avec le nom : "exerice4".
-* [ ] Ajouter ce composant dans le composant "app"
-* [ ] Dans ce composant ajouter un attribut 'texts' de type tableau de chaîne de caractères. Dans cette attribut définir trois chaines de caractères contenant les valeurs 'un', 'deux' et 'trois'.
-* [ ] Utilisez une liste 'ul' et afficher tous les éléments du tableau 'texts' dans des balises 'li'.
-      
-## Avant de finir le projet
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Pensez à pusher votre travail avant de cliquer sur 'terminer le projet'.
+## Running end-to-end tests
 
-## Besoin d'aide ?
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-Demandez nous dans le chat on vous aidera :)
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
